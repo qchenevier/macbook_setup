@@ -14,4 +14,4 @@ brew cask install --force anaconda atom visual-studio-code
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/configure_atom.sh)"
 
 # various tools
-brew cask install --force firefox gimp skype slack vlc whatsapp
+brew cask install --force firefox
