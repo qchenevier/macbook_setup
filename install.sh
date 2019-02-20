@@ -14,5 +14,9 @@ brew install --force node
 brew cask install --force anaconda atom visual-studio-code
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/configure_atom.sh)"
 
+brew tap homebrew/cask-versions
+brew cask install --force java8
+brew install --force scala apache-spark
+
 # various tools
 brew cask install --force firefox
