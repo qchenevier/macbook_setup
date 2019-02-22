@@ -62,8 +62,8 @@ In your shell, type:
 
 ##### Test vscode & configure it:
 - go to a folder where there is a git repository
-- open vscode: `code .`
-- go on "extensions" tab on the left (icon with square) and install:
+- open vscode: `code .`
+- go on "extensions" tab on the left (icon with square) and install:
   - `Python` to enable interactivity with python code & jupyter notebook close to atom+Hydrogen
   - `Gitlens`
 
