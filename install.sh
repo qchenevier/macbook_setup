@@ -8,6 +8,8 @@ brew cask install --force font-hack-nerd-font iterm2
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/.zshrc > $HOME/.zshrc
+curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/.pylintrc > $HOME/.pylintrc
+$(brew --prefix)/opt/fzf/install
 
 # coding tools
 brew install --force node
