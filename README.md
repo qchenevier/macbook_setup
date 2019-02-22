@@ -35,14 +35,6 @@ Manual actions needed:
   - click on the padlock to enable modifications
   - click on the `+` sign and add iterm to list of applications with full disk access
   - quit iterm then relaunch it
-- configure font in iterm:
-  - in iterm, use `cmd-O` to open profiles configuration
-  - click on `default` then `edit profiles`
-  - in the preferences window, go to `text` tab and click on the `change font` button
-  - select `Hack Nerd Font`
-- configure colors in iterm:
-  - in the preferences window, go to `colors window` tab and click on the `color presets` button
-  - select `tango dark`
 
 ##### Test terminal fuzzy search by fzf:
 - test path fuzzy search by typing `cd ` in the shell then `ctrl-t` to enable fuzzy search of folders
