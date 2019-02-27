@@ -32,6 +32,7 @@ brew install --force node
 
 # backend (python)
 brew cask install --force anaconda
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/configure_anaconda.sh)"
 curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/.pylintrc > $HOME/.pylintrc
 
 # backend (spark)
@@ -42,6 +43,7 @@ brew install --force scala apache-spark
 # IDEs
 brew cask install --force atom visual-studio-code
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/configure_atom.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/qchenevier/macbook_setup/master/configure_vscode.sh)"
 
 ###############################################
 # various tools
