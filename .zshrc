@@ -64,8 +64,6 @@ COMPLETION_WAITING_DOTS="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(aws brew compleat docker git gitfast)
 
-source $ZSH/oh-my-zsh.sh
-
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -107,6 +105,8 @@ POWERLEVEL9K_PYTHON_ICON='\UE235'
 POWERLEVEL9K_ANACONDA_BACKGROUND='yellow'
 POWERLEVEL9K_ANACONDA_LEFT_DELIMITER=''
 POWERLEVEL9K_ANACONDA_RIGHT_DELIMITER=''
+
+source $ZSH/oh-my-zsh.sh
 
 ###########################
 # CUSTOM CONFIG
